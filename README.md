@@ -1,25 +1,23 @@
-# PostCSS Spanish Stylesheets [![Build Status][ci-img]][ci]
+# PostCSS French Stylesheets
 
-[PostCSS] plugin for writing Spanish Stylesheets :es:.
+[PostCSS] plugin for writing French Stylesheets :fr:.
 
 [PostCSS]: https://github.com/postcss/postcss
-[ci-img]:  https://travis-ci.org/ismamz/postcss-spanish-stylesheets.svg
-[ci]:      https://travis-ci.org/ismamz/postcss-spanish-stylesheets
 
 ```css
 .foo {
-    redondeado: 3px;
-    fondo: #fff;
-    ancho: 300px;
-    alto: 200px;
-    flota: izquierda;
-    arriba: 10px;
-    abajo: 0px;
-    izquierda: 100px;
-    derecha: 100px;
-    espaciado: -1px;
-    puntero: manito !importantisimo;
-    text-transform: mayuscula;
+    arrondi: 3px;
+    fond: #fff;
+    largeur: 300px;
+    hauteur: 200px;
+    flotteur: gauche;
+    haut: 10px;
+    bas: 0px;
+    gauche: 100px;
+    droite: 100px;
+    espacement: -1px;
+    curseur: pointeur !important;
+    text-transform: majuscule;
 }
 ```
 
@@ -40,22 +38,13 @@
 }
 ```
 
-#### [See the complete list of properties and values translated](https://github.com/ismamz/postcss-spanish-stylesheets/blob/master/index.js)
+#### [See the complete list of properties and values translated](https://github.com/kud/postcss-french-stylesheets/blob/master/index.js)
 
 
 ## Usage
 
 ```js
-postcss([ require('postcss-spanish-stylesheets') ])
+postcss([ require('postcss-french-stylesheets') ])
 ```
 
 See [PostCSS] docs for examples for your environment.
-
-
-## En Español :es:
-- [Escribir CSS en Español](http://isma.uy/escribir-css-espanol/)
-
-
-## License
-
-MIT © [Ismael Martínez](http://isma.uy)

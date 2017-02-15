@@ -1,31 +1,22 @@
 {
-  "name": "postcss-spanish-stylesheets",
-  "version": "1.2.0",
-  "description": "PostCSS plugin for writing Spanish Stylesheets.",
+  "name": "postcss-french-stylesheets",
+  "version": "1.0.0",
+  "description": "PostCSS plugin for writing French Stylesheets.",
   "keywords": [
     "postcss",
     "css",
     "postcss-plugin",
-    "spanish",
-    "espanol"
+    "french",
+    "français"
   ],
-  "author": "ismamz <ismael@isma.uy>",
+  "author": "kud <m@kud.io>",
   "license": "MIT",
-  "repository": "ismamz/postcss-spanish-stylesheets",
+  "repository": "kud/postcss-french-stylesheets",
   "bugs": {
-    "url": "https://github.com/ismamz/postcss-spanish-stylesheets/issues"
+    "url": "https://github.com/kud/postcss-french-stylesheets/issues"
   },
-  "homepage": "https://github.com/ismamz/postcss-spanish-stylesheets",
+  "homepage": "https://github.com/kud/postcss-french-stylesheets",
   "dependencies": {
     "postcss": "^5.0.2"
-  },
-  "devDependencies": {
-    "chai": "^3.2.0",
-    "gulp": "^3.9.0",
-    "gulp-eslint": "^1.0.0",
-    "gulp-mocha": "^2.1.3"
-  },
-  "scripts": {
-    "test": "gulp"
   }
 }
