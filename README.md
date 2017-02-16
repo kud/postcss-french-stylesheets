@@ -10,12 +10,12 @@
     fond: #fff;
     largeur: 300px;
     hauteur: 200px;
-    flotteur: gauche;
+    flux: gauche;
     haut: 10px;
     bas: 0px;
     gauche: 100px;
     droite: 100px;
-    espacement: -1px;
+    approche: -1px;
     curseur: pointeur !important;
     text-transform: majuscule;
 }
